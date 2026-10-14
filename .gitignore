@@ -1,0 +1,32 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache & compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Local environment & secret variables
+.env
+
+# Application logs (ignore log output files but keep directory via .gitkeep)
+logs/*.log
+!logs/.gitkeep
+
+# Application generated data files (ignore output files, keep directory structure)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/reports/*
+!data/reports/.gitkeep
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
